@@ -93,7 +93,7 @@ class AsyncBankingChatbot:
 
         # Get completion from OpenAI
         response = await self.client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o",
             messages=self.conversations[session_id],
             tools=[
                 {
