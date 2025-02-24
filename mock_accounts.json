@@ -1,0 +1,99 @@
+{
+    "accounts": {
+        "3455": {
+            "pin": "2233",
+            "balance": 5420.75,
+            "currency": "USD",
+            "account_type": "Checking",
+            "account_holder": "John Smith",
+            "account_status": "active",
+            "last_transaction": "2024-02-23T10:30:00Z"
+        },
+        "7890": {
+            "pin": "4545",
+            "balance": 25000.50,
+            "currency": "USD",
+            "account_type": "Savings",
+            "account_holder": "Emma Johnson",
+            "account_status": "active",
+            "last_transaction": "2024-02-22T15:45:00Z"
+        },
+        "1234": {
+            "pin": "9876",
+            "balance": 100500.00,
+            "currency": "EUR",
+            "account_type": "Investment",
+            "account_holder": "Michael Brown",
+            "account_status": "active",
+            "last_transaction": "2024-02-21T09:15:00Z"
+        },
+        "5678": {
+            "pin": "3434",
+            "balance": 7800.25,
+            "currency": "GBP",
+            "account_type": "Current",
+            "account_holder": "Sarah Wilson",
+            "account_status": "active",
+            "last_transaction": "2024-02-23T11:20:00Z"
+        },
+        "9012": {
+            "pin": "6767",
+            "balance": 50000.00,
+            "currency": "USD",
+            "account_type": "Fixed Deposit",
+            "account_holder": "David Miller",
+            "account_status": "active",
+            "last_transaction": "2024-02-20T16:30:00Z"
+        },
+        "4321": {
+            "pin": "1212",
+            "balance": 0.00,
+            "currency": "USD",
+            "account_type": "Checking",
+            "account_holder": "Lisa Anderson",
+            "account_status": "frozen",
+            "last_transaction": "2024-01-15T12:00:00Z"
+        }
+    },
+    "account_types": {
+        "Checking": {
+            "daily_withdrawal_limit": 2000,
+            "monthly_fee": 10,
+            "minimum_balance": 500
+        },
+        "Savings": {
+            "daily_withdrawal_limit": 5000,
+            "interest_rate": 2.5,
+            "minimum_balance": 1000
+        },
+        "Investment": {
+            "daily_withdrawal_limit": 10000,
+            "risk_level": "medium",
+            "minimum_balance": 10000
+        },
+        "Current": {
+            "daily_withdrawal_limit": 2500,
+            "monthly_fee": 15,
+            "minimum_balance": 1000
+        },
+        "Fixed Deposit": {
+            "term_length": "12 months",
+            "interest_rate": 4.5,
+            "minimum_balance": 5000
+        }
+    },
+    "currencies": {
+        "USD": {
+            "symbol": "$",
+            "name": "US Dollar"
+        },
+        "EUR": {
+            "symbol": "€",
+            "name": "Euro"
+        },
+        "GBP": {
+            "symbol": "£",
+            "name": "British Pound"
+        }
+    }
+}
